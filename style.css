@@ -1,0 +1,244 @@
+* {
+    padding: 0px;
+    margin: 0%;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    line-height: 1.4;
+    background-color:rgb(2, 15, 29);
+    color: whitesmoke;
+    font-family: 'Goblin One', cursive;
+}
+
+.contenedor-general {
+
+    box-sizing: content-box;
+}
+
+
+header {
+
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    background-color:rgb(2, 15, 29);
+    border: solid whitesmoke 10px;
+    justify-content: space-between;
+}
+
+
+
+
+nav {
+    display: flex;
+    
+  }
+  
+nav a {
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+
+}
+nav a:hover {
+
+    color: rgba(255, 255, 255, 0.884);
+}
+
+
+.introduction {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+
+
+}
+
+.introduction1  p {
+
+    font-size: 40px;
+
+    
+}
+
+
+.introduction1 img {
+
+    width: 80% ;
+    align-items: center;
+    
+}
+
+.introduction1 {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4%;
+    border: solid whitesmoke 10px;
+    margin: 10%;
+
+}
+
+.introduction2 {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4%;
+    flex-wrap: wrap;
+
+}
+
+.introduction2  {
+ 
+    font-size: 20px; 
+    margin-left: 90px;
+
+}
+
+
+
+.introduction2 img {
+
+    width: 30%;
+    margin-right: 90px;
+    
+}
+
+.aboutme {
+ margin: 10%;
+ display: flex;
+ flex-direction: column;
+ border: solid whitesmoke 10px;
+ padding: 15px;
+ text-align: center;
+}
+
+.myskills {
+    margin: 10%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left
+}
+
+.p2 {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.myskills img{
+
+    width: 40%;
+   
+   padding: 40px;
+   flex-wrap: wrap;
+   align-items: center ;
+}
+
+.myskills .p2 {
+
+    margin: 10% ;
+}
+
+.my-portafolio {
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: whitesmoke;
+    padding-top: 0%;
+    padding-bottom: 20%;
+    border: solid whitesmoke 10px;
+    margin: 10%;
+    text-align: center;
+    
+}
+
+.my-portafolio h2 {
+    
+    
+    margin: top 2 px;
+    display: flex;
+    flex-direction: column;
+    border: solid whitesmoke 10px;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+.my-portafolio img {
+
+    width: 40%;
+    align-self: center
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    margin: 10%;
+    border:  solid whitesmoke 8px;
+}
+
+.secc-contc1 {
+
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+    margin: 15%;
+
+
+}
+
+.secc-contc1 img{
+    width: 100%;
+
+    
+    
+
+}
+
+
+
+
+
+
+   
+   
+   
+
+
+
+
+@media screen and (max-width: 768px) {
+    body,
+    main,
+    nav,
+    header, 
+    .introduction1,
+    .myskills,
+    .my-portafolio,  
+    .introduction,
+    .footer 
+    .seccion-contactme {
+      flex-direction: column;
+      align-items: center;
+      background-color: green;
+      color: rgb(2, 15, 29);
+       align-content: stretch;
+    }
+  }
+
+
+    
