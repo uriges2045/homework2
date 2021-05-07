@@ -1,1 +1,2 @@
-# homework2
+# homework2#
+good day, here's my first portfolio of the class that we saw from week 2 some of the  most important tools that could be used was flexbox as well as media queries to be compatible with mobile devices, I had a little problems in organizing the classes since I do not have so mu ch clear when making css to have everything organized. over-use the div container as it became more difficult for me to defer between div and section. I hade a problem in being able to organize the images with the texts.
